@@ -1,8 +1,8 @@
-include <stdio.h>
-/* This program uses puts instead of printf */
+#include <stdio.h>
+/* This C program uses puts instead of printf */
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle")
-	return(0)
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
