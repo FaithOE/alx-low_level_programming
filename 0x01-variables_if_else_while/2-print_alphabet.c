@@ -3,7 +3,7 @@
 
 /**
 * main - Entry point
-* Description: A C program to identify last digit of a given number and compare
+* Description: A C program to print the alphabet in lowercase
 * Return: 0 if successful
 */
 
@@ -14,7 +14,7 @@ int main(void)
 	for (lcase = 'a'; lcase <= 'z'; lcase++)
 	{
 		putchar(lcase);
-		putchar('\n');
 	}
+	putchar('\n')
 	return (0);
 }
