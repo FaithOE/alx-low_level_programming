@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+* main - Entry point
+* Description: A C program to print all single digit numbers starting from 0
+* Return: 0 if successful
+*/
+
+int main(void)
+{
+	int num;
+
+	for (num = '0'; num <= '9'; num++)
+	{
+		printf(num\n);
+	}
+
+	return (0);
+}
