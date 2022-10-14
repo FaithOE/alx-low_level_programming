@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (lcase == 'e' || lcase == 'q')
 		{
-			lcase++;
+			++lcase;
 		}
 		else
 		{
