@@ -1,6 +1,8 @@
+#include "main.h"
+
 /**
  * print_alphabet_x10 - Entry point
- * Description: A C program to print the alphabet in lowercase 10 times
+ * Description: A C function to print the alphabet in lowercase 10 times
  * Return: 0 if successful
  */
 
@@ -13,21 +15,8 @@ void print_alphabet_x10(void)
 	{
 		for (lcase = 'a'; lcase <= 'z'; lcase++)
 		{
-			putchar(lcase);
+			_putchar(lcase);
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
-	return (0);
-}
-
-/**
-  * main - Entry point
-  * Description: Use the function print_alphabet_x10
-  * Return: 0 if successful
-  */
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
