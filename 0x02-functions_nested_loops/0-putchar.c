@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
   * main - Entry point
   * Description: A C program to print _putchar
