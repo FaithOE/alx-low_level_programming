@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int num1 = 1, num2 = 2, sum, i;
+	int num1 = 0, num2 = 1, sum, i;
 
 	for (i = 0; i < 50; i++)
 	{
