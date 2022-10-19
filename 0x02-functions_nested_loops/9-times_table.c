@@ -15,8 +15,8 @@ void times_table(void)
 		{
 			product = number * multiplier;
 
-			_putchar(',');
 			_putchar(' ');
+			_putchar(',');
 
 			if (product <= 9)
 			{
