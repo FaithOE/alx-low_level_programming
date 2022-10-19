@@ -25,21 +25,21 @@ void print_times_table(int n)
 
 				if (product <= 9)
 				{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(product + '0');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(product + '0');
 				}
 				else if (product <= 99)
 				{
-				_putchar((product / 10) + '0');
-				_putchar((product % 10) + '0');
+					_putchar(' ');
+					_putchar((product / 10) + '0');
+					_putchar((product % 10) + '0');
 				}
 				else
 				{
-				_putchar(((product / 100) % 10) + '0');
-				_putchar(((product % 10) % 10) + '0');
-				_putchar((product % 10) + '0');
+					_putchar(((product / 100) % 10) + '0');
+					_putchar(((product % 10) % 10) + '0');
+					_putchar((product % 10) + '0');
 				}
 			}
 		_putchar('\n');
