@@ -19,7 +19,7 @@ int main(void)
 			sum = sum + multiple;
 		}
 	}
-	printf("%d\n", multiple);
+	printf("%d\n", sum);
 
 	return (0);
 }
