@@ -15,7 +15,7 @@ void times_table(void)
 		for (multiplier = 0; multiplier <= 9; multiplier++)
 		{
 			_putchar(',');
-			_putchat(' ');
+			_putchar(' ');
 
 			product = number * multiplier;
 
