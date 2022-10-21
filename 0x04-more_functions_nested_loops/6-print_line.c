@@ -3,11 +3,12 @@
 /**
   * print_line - print a straight line of varying lengths n
   *
+  * @n: integer for length of line
   */
 
 void print_line(int n)
 {
-	char line;
+	int line;
 
 	if (n > 0)
 	{
