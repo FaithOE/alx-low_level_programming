@@ -8,7 +8,9 @@
 
 int main(void)
 {
-	long i, number = 612852475143;
+	long i, number;
+
+	number = 612852475143;
 
 	for (i  = 2; i <= number; i++)
 	{
@@ -18,7 +20,7 @@ int main(void)
 			i--;
 		}
 	}
-	printf("%lu\n", i)
+	printf("%lu\n", i);
 
 	return (0);
 }
