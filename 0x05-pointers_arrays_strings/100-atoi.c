@@ -22,7 +22,7 @@ int _atoi(char *s)
 		{
 			cstr = (cstr * 10) + (*s - '0');
 		}
-		else if (num > 0)
+		else if (cstr > 0)
 		{
 			break;
 		}
