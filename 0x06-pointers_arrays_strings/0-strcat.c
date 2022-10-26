@@ -3,8 +3,8 @@
 /**
   * _strcat - A function that concatenates two strings
   *
-  * @dest: Destination string
-  * @src: Source string
+  * @dest: Pointer to destination string
+  * @src: Pointer to source string
   *
   * Return: A pointer to the resulting string
   */
@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 
 	for (i = 0; src[i] != '\0'; i++, length++)
 	{
-		dest[length] = src[j];
+		dest[length] = src[i];
 	}
 	dest[length] = '\0';
 
