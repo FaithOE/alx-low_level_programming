@@ -7,7 +7,7 @@
   * @s: The string to be searched
   * @accept: The character to be located
   *
-  * Return: The number of bytes in the initial segment of s which consists of 
+  * Return: The number of bytes in the initial segment of s which consists of
   * bytes from accept
   */
 
@@ -20,16 +20,14 @@ unsigned int _strspn(char *s, char *accept)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; accept[j] != '\0' && accept[j] != s[i]; j++)
+			;
+		if (s[i] == accept[j])
 		{
-			if (s[i] == accept[j])
-			{
-				length++;
-			}
-			if (accept[j] == '\0')
-			{
-				return (length);
-			}
-
+			length++;
+		}
+		if (accept[j] == '\0')
+		{
+			return (length);
 		}
 	}
 	return (length);
